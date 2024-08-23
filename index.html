@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1 id="Title">Simple Calculator</h1>
+        <div class="calculator-area">
+            <div class="screen">
+                <p id="question">0</p>
+                <p id="answer"></p>
+            </div>
+            <div class="UI-box box-1">
+                <button class="misc" id="clear">C</button>
+                <button class="operator" id="division">/</button>
+                <button class="operator" id="multiplication">*</button>
+                <button class="misc" id="backspace"><<</button>
+            </div>
+            <div class="UI-box box-2">
+                <div class="panel numbers">
+                    <div class="panel buttons">
+                        <button class="number" id="seven">7</button>
+                        <button class="number" id="eight">8</button>
+                        <button class="number" id="nine">9</button>
+                    </div>
+                    <div class="panel buttons">
+                        <button class="number" id="four">4</button>
+                        <button class="number" id="five">5</button>
+                        <button class="number" id="six">6</button>
+                    </div>
+                    <div class="panel buttons">
+                        <button class="number" id="one">1</button>
+                        <button class="number" id="two">2</button>
+                        <button class="number" id="three">3</button>
+                    </div>
+                    <div class="panel buttons">
+                        <button class="number" id="zero">0</button>
+                        <button class="misc" id="decimal-point">.</button>
+                    </div>
+                </div>
+                <div class="panel common">
+                    <button class="operator" id="addition">+</button>
+                    <button class="operator" id="subtraction">-</button>
+                    <button id="compute">=</button> <!--special button-->
+                </div>
+            </div>
+        </div>
+        <p id="description">Note: Does not utilize order of operations. Does not work with negative numbers either.</p>
+        <script src="script.js"></script>
+    </body>
+</html>
